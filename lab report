@@ -1,0 +1,28 @@
+LABORATORY 7 - API DEVELOPMENT WITH SPRING BOOT
+Student: MAHINAY, VINA M.
+Section: BSIT-3C 
+
+
+1. POST Endpoint
+
+POST /api/products
+Example full URL:
+http://localhost:8080/api/products
+
+
+2. GET by ID
+
+GET /api/products/{id}
+Example test:
+GET /api/products/999
+
+Expected Status Code:
+404 Not Found
+
+
+3. Screenshot requirement
+
+A screenshot of a REST client showing:
+- POST request to /api/products
+- Body containing product data
+- Result: HTTP 201 Created
